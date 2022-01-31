@@ -1,1 +1,45 @@
-h1{color: red;}
+body{
+    font-family: 'Roboto' sans-serif;
+}
+
+.logo{
+      width: 75px;
+      padding: 0px;
+      margin: 0px;
+      padding-right: 10px;
+}
+
+.navedit{
+          
+          font-size: 20px;
+}
+
+.carousel1{
+         object-fit: cover;
+         height: 90vh;
+}
+.carousel2{
+    object-fit: cover;
+    height: 90vh;
+}
+.carousel3{
+    object-fit: cover;
+    height: 90vh;
+}
+
+.CTitle{
+        border: 50px;
+
+}
+
+.spacecar{
+     margin-bottom: 30px;
+ }
+
+ .spacecar2{
+        font-size: 1.5em;
+        font-weight: 300;
+        margin-bottom: 100px;
+
+ }
+
