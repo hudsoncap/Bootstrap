@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto' sans-serif;
 }
 
-.logo{
+#logo{
       width: 75px;
       padding: 0px;
       margin: 0px;
@@ -12,7 +12,10 @@ body{
 .navedit{
           
           font-size: 20px;
+          padding: 1rem .8rem;
 }
+
+.nav-link{color: white;}
 
 .carousel1{
          object-fit: cover;
@@ -40,6 +43,28 @@ body{
         font-size: 1.5em;
         font-weight: 300;
         margin-bottom: 100px;
-
  }
+
+ .btn-main{
+     background-color: #65DAf9;
+     color: white;
+     text-transform: uppercase;
+     width: 200px;
+     height: 60px;
+     padding: 15px 20px;
+     border-radius: 30px;
+     border: 3px solid transparent;
+     transition: 0.3s;
+     
+ }
+
+.btn-main:hover {
+    text-decoration: none;
+    color: white;
+     background-color: transparent;
+     border-color: #65f9f9;
+ }
+.carousel-indicators .active {
+    background-color:  #65DAf9!important;
+}
 
