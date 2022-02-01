@@ -1,70 +1,58 @@
+   /*Gerais*/
 body{
     font-family: 'Roboto' sans-serif;
 }
 
+.row{
+    margin: 0;
+    padding: 70PX 0;
+
+}
+
+p, li{
+    color: #444;
+    font-size: 14px;
+}
+
+
+/*barra de navegação*/
+
+header .navbar {
+    background-color: #353D41;
+}
+
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 #logo{
-      width: 75px;
-      padding: 0px;
-      margin: 0px;
-      padding-right: 10px;
+    width: 75px;
+    padding-right: 5px;
 }
 
-.navedit{
-          
-          font-size: 20px;
-          padding: 1rem .8rem;
+.navbar-brand {
+    padding: 0;
+    color: #fff;
 }
 
-.nav-link{color: white;}
-
-.carousel1{
-         object-fit: cover;
-         height: 90vh;
-}
-.carousel2{
-    object-fit: cover;
-    height: 90vh;
-}
-.carousel3{
-    object-fit: cover;
-    height: 90vh;
+.navbar-brand:hover {
+    color: #fff;
 }
 
-.CTitle{
-        border: 50px;
 
-}
 
-.spacecar{
-     margin-bottom: 30px;
- }
-
- .spacecar2{
-        font-size: 1.5em;
-        font-weight: 300;
-        margin-bottom: 100px;
- }
-
- .btn-main{
-     background-color: #65DAf9;
-     color: white;
-     text-transform: uppercase;
-     width: 200px;
-     height: 60px;
-     padding: 15px 20px;
-     border-radius: 30px;
-     border: 3px solid transparent;
-     transition: 0.3s;
-     
- }
-
-.btn-main:hover {
-    text-decoration: none;
+#navbar-links  a{
     color: white;
-     background-color: transparent;
-     border-color: #65f9f9;
- }
-.carousel-indicators .active {
-    background-color:  #65DAf9!important;
+    
 }
 
+#navbar-links a:hover{
+     color: teal;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+    
+}
