@@ -1,3 +1,6 @@
+function att() {
+
+
 let percent = 0
   let time
 
@@ -25,9 +28,6 @@ let percent = 0
 
   animate("percent1", "circle1", 0, 320, 5000)
   animate("percent2", "circle2", 0, 320, 5000)
-  animate("percent3", "circle3", 0, 800, 5000)
+  animate("percent3", "circle3", 0, 999, 5000)
 
-
-
-  
-  
+}
