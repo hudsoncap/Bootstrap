@@ -12,13 +12,13 @@ let percent = 0
     const timer = setInterval(function () {
       current += increment;
       obj1.innerHTML = current;
-      obj2.style.strokeDashoffset = `${440 - (440 * current) / 100}`
+      obj2.style.strokeDashoffset = `${440 - (440 * current) / 1000}`
       if (current === end) {
         clearInterval(timer);
       }
     }, stepTime);
   }
 
-  animate("percent1", "circle1", 0, 90, 5000)
-  animate("percent2", "circle2", 0, 85, 5000)
-  animate("percent3", "circle3", 0, 60, 5000)
+  animate("percent1", "circle1", 0, 320, 5000)
+  animate("percent2", "circle2", 0, 320, 5000)
+  animate("percent3", "circle3", 0, 800, 5000)
