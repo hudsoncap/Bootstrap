@@ -29,6 +29,6 @@ let percent = 0
   animate("percent1", "circle1", 0, 320, 5000)
   animate("percent2", "circle2", 0, 320, 5000)
   animate("percent3", "circle3", 0, 32, 5000)
-  animate("percent4", "circle4", 0, 9999, 999999)
+  animate("percent4", "circle4", 0, 500, 5000)
 
 }
