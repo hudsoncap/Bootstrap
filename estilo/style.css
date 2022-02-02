@@ -378,3 +378,38 @@ div.box.container {
     margin: auto;
 
 }
+
+/* card */
+
+.card-largura{
+    max-width: 18rem;
+}
+
+.imagem-card{
+    object-fit: cover;
+    /*object-position: 0, 80%;*/
+    height: 400px;
+
+} 
+
+.main-btnc{
+    background-color: #65DAF9;
+    color: black;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border:3px solid transparent;
+    text-decoration: none;
+    transition: .5s;
+}
+
+
+
+.main-btnc:hover{
+      text-decoration: none;
+      background-color: transparent;
+      border-color: #65DAF9;
+      color: rgb(0, 0, 0);
+}
