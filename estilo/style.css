@@ -220,6 +220,11 @@ header .navbar {
     animation-delay: 0.4s;
 }
 
+.container1 .card:nth-child(4) {
+    animation: zoom 0.4s ease-in-out forwards;
+    animation-delay: 0.4s;
+}
+
 @keyframes zoom {
     to {
         transform: scale(1);
@@ -290,17 +295,18 @@ header .navbar {
 
 .text {
     position: relative;
-    color: #777;
+    color: rgb(251, 251, 251);
     margin: 20px;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 18px;
+    width: 180px;
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: 0.5s;
 }
 
 .card:hover .text {
-    color: rgb(20, 15, 15);
+    color: #65DAF9;
 }
 
 svg {
@@ -338,6 +344,13 @@ svg circle:nth-child(2) {
 }
 
 .card:nth-child(3) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 60) / 100);
+    stroke: #65DAF9;
+
+}
+
+
+.card:nth-child(4) svg circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 60) / 100);
     stroke: #65DAF9;
 
