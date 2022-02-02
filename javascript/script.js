@@ -1,6 +1,8 @@
 let percent = 0
   let time
 
+  
+
   function animate(id1, id2, start, end, duration) {
     if (start === end) return;
     const range = end - start;
@@ -17,8 +19,15 @@ let percent = 0
         clearInterval(timer);
       }
     }, stepTime);
+    
   }
+
 
   animate("percent1", "circle1", 0, 320, 5000)
   animate("percent2", "circle2", 0, 320, 5000)
   animate("percent3", "circle3", 0, 800, 5000)
+
+
+
+  
+  
