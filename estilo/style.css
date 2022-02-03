@@ -387,7 +387,6 @@ div.box.container {
 
 .imagem-card{
     object-fit: cover;
-    /*object-position: 0, 80%;*/
     height: 400px;
 
 } 
@@ -412,4 +411,191 @@ div.box.container {
       background-color: transparent;
       border-color: #65DAF9;
       color: rgb(0, 0, 0);
+}
+
+/* trabalhe conosco */
+
+#company-img{
+     background-image: url(../img/empresa.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     
+}
+
+#pattern-img{
+    background-image: url(../img/pattern.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.applyTBC{
+     height: 500px;
+     text-align: center;
+}
+
+.applytext{
+       padding: 70px 50px;
+       
+       
+}
+
+#pattern-img h4, #pattern-img p {
+    color: white;
+}
+
+#pattern-img h4{
+       margin-top: 8%;
+       margin-bottom: 20px;
+       text-transform: uppercase;
+}
+
+#pattern-img p {
+    margin-bottom: 20px;
+}
+
+#apply-btn{
+     display: block;
+     height: auto;
+     width: 180px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 30px;
+     background-color: transparent;
+     border-color: white;
+
+
+}
+
+#apply-btn:hover {
+     border: #65DAF9;
+     background-color: #65DAF9;
+}
+
+/* conheça nossos projetos  */
+
+.cnptitle{
+      padding-top: 40px;
+}
+
+.project-box {
+    margin-bottom: 30px;
+}
+
+#filter-btn-box{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#portifolio-area .filter-btn{
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#portifolio-area .filter-btn:hover, #portifolio-area .filter-btn.active{
+    color: #FFF;
+    background-color: #65DAF9;
+    border-color: #65DAF9;
+}  
+
+/* news-letter */
+
+#news-area {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#news-area > forms {
+     text-align: center;
+}
+
+#news-area  p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+#email-input {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #65DAF9;
+    display: inline;
+    box-sizing: border-box;
+    max-width: 300px;
+    width: 170px;
+    height: 40px;
+}
+
+#news-btn{
+    border: 0;
+    padding: 0 10px;
+    border-radius: 0;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 40px;
+    border: 1px solid #65DAF9;
+    box-sizing: border-box;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #65DAF9;
+    margin-left: -17px;
+    transition: 0.5s;
+}
+
+#news-btn:hover{
+    background-color: white;
+    color: #65DAF9;
+ }
+
+
+ /* Call to area  */
+
+#call-area{
+    background-color: #65DAF9;
+    text-transform: uppercase;
+}
+
+#call-area .container{
+      padding: 20px 80px;
+}
+
+#call-area .row {
+    display: block;
+    text-align: center;
+
+}
+
+#call-area p{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    width: auto;
+    letter-spacing: 2px;
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+}
+
+#call-area #call-btn {
+      background-color: white;
+      color: #65DAF9;
+      font-weight: bold;
+      font-size: 25px;
+      margin-left: 30px;
+      width: auto;
+      letter-spacing: 2px;
+      text-align: center;
+      padding: 0 15px;
 }

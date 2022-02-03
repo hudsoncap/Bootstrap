@@ -1,11 +1,5 @@
+/* Data  */
 function att() {
-
-
-let percent = 0
-  let time
-
-  
-
   function animate(id1, id2, start, end, duration) {
     if (start === end) return;
     const range = end - start;
@@ -32,3 +26,81 @@ let percent = 0
   animate("percent4", "circle4", 0, 500, 5000)
 
 }
+
+/* Conheça nossos projetos */
+
+var allbtn =document.querySelector('#all-btn')
+var devbtn =document.querySelector('#dev-btn')
+var dsgbtn =document.querySelector('#dsg-btn')
+var seobtn =document.querySelector('#seo-btn')
+var imgdev =document.querySelector('.dev')
+var imgdsg =document.querySelector('.dsg')
+var imgseo =document.querySelector('.seo')
+var imgdev1 =document.querySelector('.dev1')
+var imgdsg1 =document.querySelector('.dsg1')
+var imgseo1 =document.querySelector('.seo1')
+
+allbtn.addEventListener('click', function(){
+
+      allbtn.classList.add('active')
+      devbtn.classList.remove('active')
+      dsgbtn.classList.remove('active')
+      seobtn.classList.remove('active')
+     
+     if(allbtn.classList.contains("active")){
+      imgdev.style.display = 'block',
+      imgdsg.style.display = 'block',
+      imgseo.style.display = 'block',
+      imgdev1.style.display = 'block',
+      imgdsg1.style.display = 'block',
+      imgseo1.style.display = 'block'
+      }});
+
+devbtn.addEventListener('click',function(){
+
+  allbtn.classList.remove('active')
+  devbtn.classList.add('active')
+  dsgbtn.classList.remove('active')
+  seobtn.classList.remove('active')
+      
+      if(devbtn.classList.contains("active") ) {
+          imgdsg.style.display = 'none'
+          imgdsg1.style.display = 'none'
+          imgseo.style.display = 'none'
+          imgseo1.style.display = 'none'
+          imgdev.style.display = 'block'
+          imgdev1.style.display = 'block'
+      }});
+
+dsgbtn.addEventListener('click',function(){
+
+  allbtn.classList.remove('active')
+  devbtn.classList.remove('active')
+  dsgbtn.classList.add('active')
+  seobtn.classList.remove('active')
+      
+  if(dsgbtn.classList.contains("active") ) {
+      imgdsg.style.display = 'block'
+      imgdsg1.style.display = 'block'
+      imgseo.style.display = 'none'
+      imgseo1.style.display = 'none'
+      imgdev.style.display = 'none'
+      imgdev1.style.display = 'none'
+      }});
+
+seobtn.addEventListener('click',function(){
+
+  allbtn.classList.remove('active')
+  devbtn.classList.remove('active')
+  dsgbtn.classList.remove('active')
+  seobtn.classList.add('active')
+      
+  if(seobtn.classList.contains("active") ) {
+      imgdsg.style.display = 'none'
+      imgdsg1.style.display = 'none'
+      imgseo.style.display = 'block'
+      imgseo1.style.display = 'block'
+      imgdev.style.display = 'none'
+      imgdev1.style.display = 'none'
+      }});
+
