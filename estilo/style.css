@@ -533,12 +533,12 @@ div.box.container {
     border: 1px solid #65DAF9;
     display: inline;
     box-sizing: border-box;
-    max-width: 300px;
-    width: 170px;
+    width: 100%;
     height: 40px;
 }
 
 #news-btn{
+    
     border: 0;
     padding: 0 10px;
     border-radius: 0;
@@ -550,8 +550,13 @@ div.box.container {
     color: #fff;
     text-transform: uppercase;
     background-color: #65DAF9;
-    margin-left: -17px;
+    margin-left: -35px;
     transition: 0.5s;
+     text-align: left;
+    width: 100%;
+    min-width: 100px;
+    
+    
 }
 
 #news-btn:hover{
