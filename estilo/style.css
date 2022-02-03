@@ -537,6 +537,10 @@ div.box.container {
     height: 40px;
 }
 
+#email-input:hover , #mail-inpout:active{
+     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.082);
+}
+
 #news-btn{
     
     border: 0;
@@ -554,9 +558,7 @@ div.box.container {
     transition: 0.5s;
      text-align: left;
     width: 100%;
-    min-width: 100px;
-    
-    
+    min-width: 100px;  
 }
 
 #news-btn:hover{
