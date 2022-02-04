@@ -1,4 +1,11 @@
 /* Data  */
+let addcafe = 500
+
+function cafe() {
+  return addcafe += 1, att()
+   
+}
+
 function att() {
   function animate(id1, id2, start, end, duration) {
     if (start === end) return;
@@ -23,7 +30,7 @@ function att() {
   animate("percent1", "circle1", 0, 320, 5000)
   animate("percent2", "circle2", 0, 320, 5000)
   animate("percent3", "circle3", 0, 32, 5000)
-  animate("percent4", "circle4", 0, 500, 5000)
+  animate("percent4", "circle4", 0, addcafe, 5000)
 
 }
 

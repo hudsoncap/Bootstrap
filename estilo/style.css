@@ -95,9 +95,9 @@ header .navbar {
 
 .main-btn{
     background-color: #65DAF9;
-    color: #FFF;
+    color: rgb(8, 8, 8);
     text-transform: uppercase;
-    width: 200px;
+    width: auto;
     height: 60px;
     padding: 10px 20px;
     border-radius: 30px;
@@ -191,6 +191,8 @@ header .navbar {
 
 
 /* data */
+
+
 
 
 
@@ -466,6 +468,7 @@ div.box.container {
      margin-top: 30px;
      background-color: transparent;
      border-color: white;
+     color: white;
 
 
 }
@@ -606,3 +609,5 @@ div.box.container {
       text-align: center;
       padding: 0 15px;
 }
+
+/*  slider */
