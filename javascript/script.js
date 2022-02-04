@@ -1,12 +1,54 @@
 /* Data  */
-let addcafe = 500
+let addcafe = 400
+let addef = 100
+let addpe = 100
+let addcol = 10
 
-function cafe() {
-  return addcafe += 1, att()
+function animate(id1, id2, start, end, duration) {
+  if (start === end) return;
+  const range = end - start;
+  let current = start;
+  const increment = end > start ? 1 : -1;
+  const stepTime = Math.abs(Math.floor(duration / range));
+  const obj1 = document.getElementById(id1);
+  const obj2 = document.getElementById(id2);
+  const timer = setInterval(function () {
+    current += increment;
+    obj1.innerHTML = current;
+    obj2.style.strokeDashoffset = `${440 - (440 * current) / 1000}`
+    if (current === end) {
+      clearInterval(timer);
+    }
+  }, stepTime);
+  
+}
+
+
+animate("percent1", "circle1", 0, addef, 1000)
+animate("percent2", "circle2", 0, addpe, 1000)
+animate("percent3", "circle3", 0, addcol, 1000)
+animate("percent4", "circle4", 0, addcafe, 1000)
+
+function EF() {
+  return addef += 1, att('ef')
    
 }
 
-function att() {
+function PE() {
+  return addpe += 1, att('pe')
+   
+}
+
+function COLAB() {
+  return addcol += 1, att('col')
+   
+}
+function cafe() {
+  return addcafe += 1, att('cafe')
+   
+}
+
+function att(b) {
   function animate(id1, id2, start, end, duration) {
     if (start === end) return;
     const range = end - start;
@@ -25,12 +67,23 @@ function att() {
     }, stepTime);
     
   }
+  
+   if (b == 'ef'){
+    animate("percent1", "circle1", 0, addef, 1000)
+   } else if (b=='pe'){
+    animate("percent2", "circle2", 0, addpe, 1000)}
+    else if (b=='col'){
+      animate("percent3", "circle3", 0, addcol, 1000)
+    } else if (b=='cafe') {
+      animate("percent4", "circle4", 0, addcafe, 1000)
+    } else {
+      animate("percent1", "circle1", 0, addef, 1000)
+      animate("percent2", "circle2", 0, addpe, 1000)
+      animate("percent3", "circle3", 0, addcol, 1000)
+      animate("percent4", "circle4", 0, addcafe, 1000)
+    }
 
-
-  animate("percent1", "circle1", 0, 320, 5000)
-  animate("percent2", "circle2", 0, 320, 5000)
-  animate("percent3", "circle3", 0, 32, 5000)
-  animate("percent4", "circle4", 0, addcafe, 5000)
+ 
 
 }
 

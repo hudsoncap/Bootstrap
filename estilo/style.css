@@ -73,7 +73,7 @@ header .navbar {
 
 .caroimg{
     object-fit: cover;
-    height: 90vh;
+    height: 600px;
     
 }
 
@@ -364,7 +364,31 @@ div.box.container {
 
 .btncenter{
     text-align: center;
+    margin-top: 30px;
+    width: auto;
+    font-size: 11px;
+    margin-bottom: 10px;
 }
+
+.btncenter2{
+    text-align: center;
+    margin-top: 10px;
+    width: auto;
+    font-size: 11px;
+    margin-bottom: 10px;
+    
+}
+
+.btncenteratt{
+    
+        text-align: center;
+        margin-top: 30px;
+        width: auto;
+        font-size: 25px;
+        margin-bottom: 10px;
+    
+}
+
 
 
 /*  imagem parallax */ 
@@ -610,4 +634,91 @@ div.box.container {
       padding: 0 15px;
 }
 
-/*  slider */
+/*  footer-conta-area */
+
+#contact-area{
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #31C1D5;
+
+}
+
+.contact-box i {
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    padding-left: 16px;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #65DAF9;
+}
+
+#msg-box p {
+    text-align: center;
+    font-size: 22px;
+}
+
+#contact-form input[type="text"],#contact-form input[type="email"],
+#contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;   
+}
+
+#contact-form .main-btn {
+    width:120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover {
+    width:120px;
+    height: 50px;
+    color: #31C1D5;
+}
+
+.contact-box .iconevelope{
+    padding-left: 15px;
+}
+
+
+
+/* footer - copy-area  */
+
+#copy-area{
+    background-color: #F1F1F1;
+}
+
+#copy-area .container{
+    padding: 2px 0;
+    text-align: center;
+
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
+    padding:10px 0;
+}
+
+#copy-area .container a{
+    font-weight: bold;  
+    color: #444; 
+}
+
+#copy-area .container a:hover{
+    text-decoration: none;
+    color: #31C1D5;
+}
