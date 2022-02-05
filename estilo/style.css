@@ -1,4 +1,12 @@
    /*Gerais*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: 2em;
+  }
 body{
     font-family: 'roboto', sans-serif;
 

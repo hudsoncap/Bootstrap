@@ -164,3 +164,7 @@ seobtn.addEventListener('click',function(){
       imgdev1.style.display = 'none'
       }});
 
+/* scroll targed */
+
+
+
